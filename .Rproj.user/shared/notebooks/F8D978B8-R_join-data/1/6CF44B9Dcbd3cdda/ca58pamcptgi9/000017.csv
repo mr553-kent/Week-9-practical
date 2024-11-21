@@ -1,0 +1,5 @@
+"0",""
+"0","fulljoin_dataset <- full_join(stroke_patients, heart_patients, by = 'patientID',"
+"0","                              suffix = c('.stroke', '.heart'))"
+"0",""
+"0","head(fulljoin_dataset)"

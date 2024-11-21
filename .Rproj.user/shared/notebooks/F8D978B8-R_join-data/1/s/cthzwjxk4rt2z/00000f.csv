@@ -1,0 +1,5 @@
+"0","innerjoin_dataset <- inner_join(stroke_patients, heart_patients, "
+"0","                              by = ""patientID"","
+"0","                              suffix = c("".stroke"", "".heart""))"
+"0",""
+"0","head(innerjoin_dataset)"
