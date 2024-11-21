@@ -46,6 +46,10 @@ head(innerjoin_dataset)
 If you wanted to produce a table that shows those who have had either a stroke, heart attack, or both, what type of join would you use?
 
 ```{r}
-# Add your code here!
+
+fulljoin_dataset <- full_join(stroke_patients, heart_patients, by = 'patientID',
+                              suffix = c('.stroke', '.heart'))
+
+head(fulljoin_dataset)
 ```
 
